@@ -31,11 +31,9 @@ public class TableGraphic extends AbstractGraphicShape{
     }
 
     /*private TableGraphic(){}
-
         private static class TableHolder{
             public static TableGraphic tableGraphic = new TableGraphic();
         }
-
         public static TableGraphic getTableGraphic(){
             return TableHolder.tableGraphic;
         }
@@ -45,12 +43,12 @@ public class TableGraphic extends AbstractGraphicShape{
         int pointX = startPoint.getX();
         int pointY = startPoint.getY();
 
-        //»æÖÆºáÏòÏßÌõ
+        //ç»˜åˆ¶æ¨ªå‘çº¿æ¡
         for (int i = 0; i < row+1; i++) {
             graphics.drawLine(pointX,pointY+i*lengthOfSide,pointX + col*lengthOfSide,pointY+i*lengthOfSide);
         }
 
-        //»æÖÆ×İÏòÏßÌõ
+        //ç»˜åˆ¶çºµå‘çº¿æ¡
         for (int i = 0; i < col+1; i++) {
             graphics.drawLine(pointX+i*lengthOfSide,pointY,pointX+i*lengthOfSide,pointY + row*lengthOfSide);
         }
@@ -58,7 +56,7 @@ public class TableGraphic extends AbstractGraphicShape{
 
 
     /**
-     * ¸ü¸ÄĞĞÊıºÍÁĞÊı
+     * æ›´æ”¹è¡Œæ•°å’Œåˆ—æ•°
      * @param row
      * @param col
      */
@@ -68,7 +66,7 @@ public class TableGraphic extends AbstractGraphicShape{
     }
 
     /**
-     * ¸ü¸Ä±í¸ñµÄ´óĞ¡
+     * æ›´æ”¹è¡¨æ ¼çš„å¤§å°
      * @param lengthOfSize
      */
     public void changeLengthOfSize(int lengthOfSize){

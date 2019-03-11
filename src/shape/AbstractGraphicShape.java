@@ -10,7 +10,7 @@ import base.Point;
 public abstract class AbstractGraphicShape implements GraphicsShape{
 
     /**
-     * Í¼°¸Æğµã
+     * å›¾æ¡ˆèµ·ç‚¹
      */
 
     protected Point startPoint;
@@ -23,7 +23,7 @@ public abstract class AbstractGraphicShape implements GraphicsShape{
     }
 
     /**
-     * ÒÆ¶¯µ½Ö¸¶¨×ø±ê
+     * ç§»åŠ¨åˆ°æŒ‡å®šåæ ‡
      * @param x
      * @param y
      */
